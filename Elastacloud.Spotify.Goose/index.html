@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.7.1.min.js"></script>
+    <script src="Scripts/jquery.signalR-1.0.0-rc2.min.js"></script>
+</head>
+    <body>
+        <div id="data"></div>
+
+        <script>
+            $(document).ready(function() {
+                var connection = $.connection('/goose', "group=123", true);
+
+                connection.start().done(function() {
+
+                    connection.received(function(data) {
+                        console.log(data);
+                        $("#data").html(data);
+                    });
+
+                    connection.send("123:hooo");
+                }
+                );
+
+            });
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-1.0.0-rc2.min.js"></script>
+    <script src="http://localhost:6599/gosling/hubs" type="text/javascript"></script>
+</head>
+    <body>
+        <div id="state"></div>
+        <div id="data"></div>
+
+        <script>
+            $(document).ready(function () {
+
+                $.connection.hub.logging = true;
+                $.connection.hub.qs = "group=123";
+                $.connection.hub.url = "http://localhost:5699/gosling";
+
+                var myHub = $.connection.gooseHub;
+                
+                myHub.state.someState = "group=123";
+
+                function connectionReady() {
+                    $("#state").html("Done calling first hub serverside-function");
+                };
+
+                myHub.client.addMessage = function(data) {
+                    $("#data").html(data);
+                };
+
+                $.connection.hub.error(function() {
+                    $("#state").html("An error occured");
+                });
+
+                $.connection.hub.start("http://localhost:5699/gosling/hubs")
+                                .done(function() {
+                                    myHub.server.send("123:echo")
+                                        .done(connectionReady);
+                                })
+                                .fail(function() {
+                                    $("#state").html("Could not Connect!");
+                                });
+            });
+
+        </script>
+    </body>
+</html>

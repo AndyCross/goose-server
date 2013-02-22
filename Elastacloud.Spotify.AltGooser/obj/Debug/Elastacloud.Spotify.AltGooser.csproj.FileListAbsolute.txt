@@ -1,0 +1,5 @@
+c:\dev\Elastacloud\spotify\Elastacloud.Spotify.Goose\Elastacloud.Spotify.AltGooser\bin\Elastacloud.Spotify.AltGooser.dll
+c:\dev\Elastacloud\spotify\Elastacloud.Spotify.Goose\Elastacloud.Spotify.AltGooser\bin\Elastacloud.Spotify.AltGooser.pdb
+c:\dev\Elastacloud\spotify\Elastacloud.Spotify.Goose\Elastacloud.Spotify.AltGooser\obj\Debug\Elastacloud.Spotify.AltGooser.csprojResolveAssemblyReference.cache
+c:\dev\Elastacloud\spotify\Elastacloud.Spotify.Goose\Elastacloud.Spotify.AltGooser\obj\Debug\Elastacloud.Spotify.AltGooser.dll
+c:\dev\Elastacloud\spotify\Elastacloud.Spotify.Goose\Elastacloud.Spotify.AltGooser\obj\Debug\Elastacloud.Spotify.AltGooser.pdb

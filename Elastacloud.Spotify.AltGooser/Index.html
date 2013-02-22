@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-1.0.0-rc2.min.js"></script>
+</head>
+    <body>
+        <div id="data"></div>
+
+        <script>
+            var connection = null;
+            $(document).ready(function () {
+                connection = $.connection('http://localhost:6599/goose', {group: "123"}, true);
+
+                connection.start({ jsonp: true }).done(function () {
+
+                    connection.received(function (data) {
+                        console.log(data);
+                        alert('oooyeah');
+                        $("#data").html(data);
+                    });
+
+                    connection.send("123:hooo");
+                }
+                );
+
+            });
+            
+            function tryagain() {
+                connection.send("123:hooo");
+            }
+
+        </script>
+        
+        <button onclick="tryagain()">Fark</button>
+    </body>
+</html>

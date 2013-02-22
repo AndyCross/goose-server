@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-Elastacloud.Spotify.Goose-20130212203830;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-Elastacloud.Spotify.Goose-20130212203830.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\dev\\Elastacloud\\spotify\\Elastacloud\.Spotify\.Goose\\Elastacloud\.Spotify\.Goose\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
