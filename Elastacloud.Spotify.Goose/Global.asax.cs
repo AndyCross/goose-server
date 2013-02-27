@@ -20,6 +20,7 @@ namespace Elastacloud.Spotify.Goose
         {
             GlobalHost.HubPipeline.EnableAutoRejoiningGroups();
             RouteTable.Routes.MapConnection<GooseConnection>("goose", "/goose");
+            RouteTable.Routes.MapConnection<GooseSyncConnection>("gooseSync", "/goosesync");
             RouteTable.Routes.MapHubs("/gosling", new HubConfiguration());
             RouteTable.Routes.MapHttpRoute("DefaultApi", "api/{controller}/{id}", new {id = RouteParameter.Optional});
         }

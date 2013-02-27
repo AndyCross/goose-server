@@ -139,6 +139,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Connections\GooseConnection.cs" />
+    <Compile Include="Connections\GooseSyncConnection.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LeadGooseController.cs" />
     <Compile Include="Controllers\TailGooseController.cs" />
