@@ -1,3 +1,4 @@
 <Modules>
   <Module PersistentId="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93" ModuleId="Elastacloud.Spotify.Goose" />
+  <Module PersistentId="Microsoft.AspNet.SignalR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="Microsoft.AspNet.SignalR.Core" />
 </Modules>

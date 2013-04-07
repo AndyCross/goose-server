@@ -16,12 +16,6 @@ namespace Elastacloud.Spotify.Goose.Connections
             return Groups.Add(connectionId, group);
         }
 
-
-        protected override IEnumerable<string> OnRejoiningGroups(IRequest request, IEnumerable<string> groups, string connectionId)
-        {
-            return groups;
-        }
-
         protected override Task OnReceived(IRequest request, string connectionId, string data)
         {
             var group = request.QueryString["group"];

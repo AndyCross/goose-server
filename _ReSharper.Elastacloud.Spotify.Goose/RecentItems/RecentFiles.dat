@@ -1,20 +1,25 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Hubs/f:GooseHub.cs" caret="588" fromTop="20" />
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:Global.asax.cs" caret="756" fromTop="9" />
-    <File id="DB679AB8-A215-406A-A3DE-7FAF4AFAA026/f:hubs.html" caret="503" fromTop="15" />
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:hubs.html" caret="482" fromTop="15" />
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:index.html" caret="215" fromTop="5" />
     <File id="DB679AB8-A215-406A-A3DE-7FAF4AFAA026/f:Index.html" caret="810" fromTop="23" />
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Connections/f:GooseConnection.cs" caret="900" fromTop="17" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:packages.config" caret="2070" fromTop="11" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Connections/f:GooseSyncConnection.cs" caret="562" fromTop="11" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:index.html" caret="524" fromTop="13" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:Global.asax.cs" caret="849" fromTop="16" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:hubs.html" caret="194" fromTop="0" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Hubs/f:GooseHub.cs" caret="293" fromTop="6" />
+    <File id="DB679AB8-A215-406A-A3DE-7FAF4AFAA026/f:hubs.html" caret="750" fromTop="12" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Connections/f:GooseConnection.cs" caret="485" fromTop="7" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Controllers/f:LeadGooseController.cs" caret="806" fromTop="11" />
   </RecentFiles>
   <RecentEdits>
     <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:index.html" caret="215" fromTop="5" />
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:Global.asax.cs" caret="756" fromTop="9" />
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Hubs/f:GooseHub.cs" caret="432" fromTop="11" />
     <File id="DB679AB8-A215-406A-A3DE-7FAF4AFAA026/f:Index.html" caret="455" fromTop="13" />
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:hubs.html" caret="534" fromTop="16" />
-    <File id="DB679AB8-A215-406A-A3DE-7FAF4AFAA026/f:hubs.html" caret="628" fromTop="17" />
-    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Connections/f:GooseConnection.cs" caret="931" fromTop="17" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Connections/f:GooseConnection.cs" caret="485" fromTop="7" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Connections/f:GooseSyncConnection.cs" caret="489" fromTop="9" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:hubs.html" caret="194" fromTop="5" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/f:Global.asax.cs" caret="846" fromTop="13" />
+    <File id="DB679AB8-A215-406A-A3DE-7FAF4AFAA026/f:hubs.html" caret="1344" fromTop="13" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Hubs/f:GooseHub.cs" caret="293" fromTop="6" />
+    <File id="DB03BBB0-8DB6-416A-ADC6-871EEFE3BB93/d:Controllers/f:LeadGooseController.cs" caret="806" fromTop="11" />
   </RecentEdits>
 </RecentFiles>

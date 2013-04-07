@@ -1,5 +1,5 @@
-2013/02/26-08:26:38.818 2d34 Recovering log #12
-2013/02/26-08:26:38.819 2d34 Level-0 table #14: started
-2013/02/26-08:26:38.819 2d34 Level-0 table #14: 0 bytes OK
-2013/02/26-08:26:39.184 2d34 Delete type=0 #12
-2013/02/26-08:26:39.185 2d34 Delete type=3 #10
+2013/02/27-12:11:06.185 8a4 Recovering log #21
+2013/02/27-12:11:06.185 8a4 Level-0 table #24: started
+2013/02/27-12:11:06.278 8a4 Level-0 table #24: 4323 bytes OK
+2013/02/27-12:11:06.376 8a4 Delete type=0 #21
+2013/02/27-12:11:06.377 8a4 Delete type=3 #19

@@ -3,8 +3,8 @@
 <head>
     <title></title>
     <script src="Scripts/jquery-1.7.1.min.js"></script>
-    <script src="Scripts/jquery.signalR-1.0.0-rc2.min.js"></script>
-    <script src="/gosling/hubs" type="text/javascript"></script>
+    <script src="Scripts/jquery.signalR-1.0.0.min.js"></script>
+    <script src="/gosling.hub/hubs" type="text/javascript"></script>
 </head>
     <body>
         <div id="state"></div>
@@ -18,7 +18,7 @@
 
                 var myHub = $.connection.gooseHub;
                 
-                myHub.state.someState = "group=123";
+                //myHub.state.someState = "group=123";
 
                 function connectionReady() {
                     $("#state").html("Done calling first hub serverside-function");

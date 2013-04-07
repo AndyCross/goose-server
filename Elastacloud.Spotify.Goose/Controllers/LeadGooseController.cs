@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using Elastacloud.Spotify.Goose.Connections;
+using Elastacloud.Spotify.Goose.Hubs;
 using Microsoft.AspNet.SignalR;
 
 namespace Elastacloud.Spotify.Goose.Controllers

@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
-    <script src="Scripts/jquery-1.6.4.min.js"></script>
-    <script src="Scripts/jquery.signalR-1.0.0-rc2.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery.signalR-1.0.0.min.js"></script>
     <script src="http://localhost:6599/gosling/hubs" type="text/javascript"></script>
 </head>
     <body>
@@ -15,7 +15,7 @@
 
                 $.connection.hub.logging = true;
                 $.connection.hub.qs = "group=123";
-                $.connection.hub.url = "http://localhost:5699/gosling";
+                $.connection.hub.url = "http://localhost:6599/gosling";
 
                 var myHub = $.connection.gooseHub;
                 
@@ -33,9 +33,9 @@
                     $("#state").html("An error occured");
                 });
 
-                $.connection.hub.start("http://localhost:5699/gosling/hubs")
+                $.connection.hub.start({ jsonp: true })
                                 .done(function() {
-                                    myHub.server.send("123:echo")
+                                    myHub.server.send("123:echo 123")
                                         .done(connectionReady);
                                 })
                                 .fail(function() {
